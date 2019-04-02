@@ -29,7 +29,7 @@ the following Maven goal:
 You can now deploy the artifact by executing the following command:
     mvn wildfly:deploy
 This will deploy both the client and service applications.
-The application will be running at the following URL <http://wild-dx-wild-dx.7e14.starter-us-west-2.openshiftapps.com/dx//>.
+The application will be running at the following URL <http://wild-dx-wild-dx.7e14.starter-us-west-2.openshiftapps.com/dx/>.
 To undeploy run this command:
     mvn wildfly:undeploy
 You can also start the JBoss container and deploy the project using JBoss Tools. See the
@@ -44,9 +44,3 @@ If you created the project from the commandline using archetype:generate, then
 you need to import the project into your IDE. If you are using NetBeans 6.8 or
 IntelliJ IDEA 9, then all you have to do is open the project as an existing
 project. Both of these IDEs recognize Maven projects natively.
-
-Copyright headers
------------------
-To update the copyright headers, just run `mvn license:format -Dyear=<current year>`
-
-
