@@ -1,2 +1,4 @@
 org\jboss\as\quickstarts\dxrest\HelloService.class
+org\jboss\as\quickstarts\dxmodel\Arriving.class
+org\jboss\as\quickstarts\dxtools\GsonTimeAdapter.class
 org\jboss\as\quickstarts\dxrest\HelloWorld.class

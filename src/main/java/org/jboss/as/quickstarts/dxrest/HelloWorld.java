@@ -16,8 +16,15 @@
  */
 package org.jboss.as.quickstarts.dxrest;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import jdk.nashorn.internal.ir.debug.JSONWriter;
+import jdk.nashorn.internal.objects.NativeJSON;
+import org.jboss.as.quickstarts.dxtools.GsonTimeAdapter;
+
 import javax.inject.Inject;
 import javax.ws.rs.*;
+import java.time.LocalTime;
 
 /**
  * A simple REST service which is able to say hello to someone using HelloService Please take a look at the web.xml where JAX-RS
@@ -49,8 +56,11 @@ public class HelloWorld {
     @Produces("application/json")
     public String getHelloWorldJSON(@PathParam("name") String name) {
         System.out.println("name: " + name);
-        return "{\"result\":\"" + helloService.createHelloMessage(name) + "\"}";
+
+        Gson gson = new GsonBuilder().registerTypeAdapter(LocalTime.class, new GsonTimeAdapter()).create();
+        return gson.toJson(helloService.getArrivingsForStation(name));
     }
+
 
     @POST
     @Path("/xml/{name}")
