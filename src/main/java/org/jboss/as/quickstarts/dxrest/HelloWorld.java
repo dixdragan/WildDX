@@ -25,6 +25,9 @@ import org.jboss.as.quickstarts.dxtools.GsonTimeAdapter;
 import javax.inject.Inject;
 import javax.ws.rs.*;
 import java.time.LocalTime;
+import java.time.ZoneId;
+import java.util.Date;
+import java.util.TimeZone;
 
 /**
  * A simple REST service which is able to say hello to someone using HelloService Please take a look at the web.xml where JAX-RS
@@ -48,7 +51,12 @@ public class HelloWorld {
     @Path("/hello")
     @Produces("text/plain")
     public String hello() {
-        return "Hello Mars";
+        return "Hello Mars!"
+                + "\n DATE: " + (new Date()).toString()
+                + "\n LOCAL TIME: " + (LocalTime.now().toString())
+                + "\n LOCAL TIME (Europe Time): " + (LocalTime.now(ZoneId.of("Europe/Belgrade")))
+                + "\n LOCAL TIMEZONE: " + (TimeZone.getDefault().getID())
+                ;
     }
 
     @GET
