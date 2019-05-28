@@ -7,14 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec22fdde-db01-47ec-933e-ec3c732b5892" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jboss/as/quickstarts/dxrest/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jboss/as/quickstarts/dxrest/HelloService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jboss/as/quickstarts/dxrest/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jboss/as/quickstarts/dxrest/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dx.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/dx.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dx/WEB-INF/classes/org/jboss/as/quickstarts/dxrest/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dx/WEB-INF/classes/org/jboss/as/quickstarts/dxrest/HelloService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dx/WEB-INF/classes/org/jboss/as/quickstarts/dxrest/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dx/WEB-INF/classes/org/jboss/as/quickstarts/dxrest/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,7 +27,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxmodel/Arriving.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
+            <state relative-caret-position="697">
               <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
             </state>
           </provider>
@@ -41,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="539">
               <caret line="68" column="67" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,13 +45,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="115" column="59" selection-start-line="115" selection-start-column="59" selection-end-line="115" selection-end-column="59" />
+            <state relative-caret-position="510">
+              <caret line="50" column="86" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+              <folding>
+                <element signature="e#2237#2238#0" expanded="true" />
+                <element signature="e#2264#2265#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,12 +103,13 @@
         <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxtools/GsonTimeAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="-1504" />
+    <option name="y" value="-992" />
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
@@ -307,7 +316,11 @@
       <workItem from="1554193694415" duration="2282000" />
       <workItem from="1555404928776" duration="10953000" />
       <workItem from="1555592303621" duration="1045000" />
-      <workItem from="1555657866823" duration="6628000" />
+      <workItem from="1555657866823" duration="7513000" />
+      <workItem from="1556885429653" duration="1218000" />
+      <workItem from="1557766435361" duration="1020000" />
+      <workItem from="1558982860436" duration="625000" />
+      <workItem from="1559072144914" duration="2523000" />
     </task>
     <task id="LOCAL-00001" summary="Clean">
       <created>1554201567472</created>
@@ -330,14 +343,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555661887164</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rest Delta implemented&#10;Vidik added">
+      <created>1555677509767</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555677509767</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24111000" />
+    <option name="totallyTimeSpent" value="30382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-1208" y="-983" width="1216" height="1906" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -346,7 +366,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.17301038" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32850242" />
@@ -358,7 +378,7 @@
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32850242" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.35909823" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.30231246" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.31078905" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -382,7 +402,8 @@
     <MESSAGE value="Clean" />
     <MESSAGE value="Rest Beta implemented" />
     <MESSAGE value="Rest Gama implemented&#10;Timezone fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest Gama implemented&#10;Timezone fix" />
+    <MESSAGE value="Rest Delta implemented&#10;Vidik added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest Delta implemented&#10;Vidik added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
@@ -431,14 +452,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxmodel/Arriving.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
+        <state relative-caret-position="697">
           <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="539">
           <caret line="68" column="67" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -448,10 +469,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="115" column="59" selection-start-line="115" selection-start-column="59" selection-end-line="115" selection-end-column="59" />
+        <state relative-caret-position="510">
+          <caret line="50" column="86" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <folding>
+            <element signature="e#2237#2238#0" expanded="true" />
+            <element signature="e#2264#2265#0" expanded="true" />
           </folding>
         </state>
       </provider>
