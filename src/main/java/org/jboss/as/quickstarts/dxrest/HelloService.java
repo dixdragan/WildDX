@@ -45,37 +45,169 @@ public class HelloService {
         int delayInMin;
 
         switch (stationID){
-            case "12":
-            case "etf":
-                delayInMin = 7;
-                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"17","Obilicevo","Nova Bolnica")){
-                    ret.add(a);
-                }
-                break;
-            case "13":
-            case "bulevar":
 
-                delayInMin = 20;
-                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){
-                    ret.add(a);
-                }
-
-                delayInMin = 8;
-                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"1","Obilicevo","Nova Bolnica")){
-                    ret.add(a);
-                }
-
-                break;
             case "vidik":
             case "0":
                 delayInMin = 0;
-                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){
-                    ret.add(a);
-                }
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                for (Arriving a:getLineWithDelay("line17_1",delayInMin,"17","Nova Bolnica","Obilicevo")){ ret.add(a); }
+                break;
+            case "1": // Pekara
+                delayInMin = 1;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                for (Arriving a:getLineWithDelay("line17_1",delayInMin,"17","Nova Bolnica","Obilicevo")){ ret.add(a); }
+                break;
+            case "2": // Trafo
+                delayInMin = 3;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                for (Arriving a:getLineWithDelay("line17_1",delayInMin,"17","Nova Bolnica","Obilicevo")){ ret.add(a); }
+                break;
+            case "3": // Sunce
+                delayInMin = 5;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                for (Arriving a:getLineWithDelay("line17_1",delayInMin,"17","Nova Bolnica","Obilicevo")){ ret.add(a); }
+                break;
+            case "4": // Gimnazija
+                delayInMin = 8;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                for (Arriving a:getLineWithDelay("line17_1",delayInMin,"17","Nova Bolnica","Obilicevo")){ ret.add(a); }
+                break;
+            case "5": // ETF
+                delayInMin = 10;
+                for (Arriving a:getLineWithDelay("line17_1",delayInMin,"17","Nova Bolnica","Obilicevo")){ ret.add(a); }
+                break;
+            case "6":
+                delayInMin = 14;
+                for (Arriving a:getLineWithDelay("line17_1",delayInMin,"17","Nova Bolnica","Obilicevo")){ ret.add(a); }
+                break;
+            case "7":
+                delayInMin = 16;
+                for (Arriving a:getLineWithDelay("line17_1",delayInMin,"17","Nova Bolnica","Obilicevo")){ ret.add(a); }
+                break;
 
-                for (Arriving a:getLineWithDelay("line17_1",delayInMin,"17","Nova Bolnica","Obilicevo")){
-                    ret.add(a);
-                }
+            case "8":
+                delayInMin = 0;
+                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"17","Obilicevo","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "9":
+                delayInMin = 1;
+                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"17","Obilicevo","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "10":
+                delayInMin = 3;
+                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"17","Obilicevo","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "11":
+                delayInMin = 6;
+                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"17","Obilicevo","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "12":
+            case "etf":
+                delayInMin = 8;
+                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"17","Obilicevo","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "13":
+            case "bulevar":
+                delayInMin = 33;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                delayInMin = 11;
+                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"17","Obilicevo","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "14":
+                delayInMin = 35;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                delayInMin = 13;
+                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"17","Obilicevo","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "15":
+                delayInMin = 38;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                delayInMin = 16;
+                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"17","Obilicevo","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "16":
+                delayInMin = 40;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                delayInMin = 18;
+                for (Arriving a:getLineWithDelay("line17_2",delayInMin,"17","Obilicevo","Nova Bolnica")){ ret.add(a); }
+                break;
+
+            case "20": // Centar
+                delayInMin = 10;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                break;
+            case "21":
+                delayInMin = 12;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                break;
+            case "22": // PMF
+                delayInMin = 15;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                break;
+            case "23": // Mljekara
+                delayInMin = 18;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                break;
+            case "24":
+                delayInMin = 22;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                break;
+            case "25": // Autobuska stanica
+                delayInMin = 25;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                break;
+            case "26":
+                delayInMin = 28;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                break;
+            case "27": // Merkur
+                delayInMin = 32;
+                for (Arriving a:getLineWithDelay("line1_1",delayInMin,"1","Nova Bolnica","Ortopedija")){ ret.add(a); }
+                break;
+
+            case "30":
+                delayInMin = 0;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "31":
+                delayInMin = 2;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "32":
+                delayInMin = 5;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "33": // AMS
+                delayInMin = 8;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "34": // Poljoprivredna skola
+                delayInMin = 12;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "35": // Nova pijaca
+                delayInMin = 15;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "36": // Lesnina
+                delayInMin = 18;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "37": // Kort
+                delayInMin = 22;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "38": // Moj Market
+                delayInMin = 25;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "39": // Narodna skupstina
+                delayInMin = 28;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
+                break;
+            case "40": // Posta
+                delayInMin = 30;
+                for (Arriving a:getLineWithDelay("line1_2",delayInMin,"1","Ortopedija","Nova Bolnica")){ ret.add(a); }
                 break;
         }
 

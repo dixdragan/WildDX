@@ -7,9 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec22fdde-db01-47ec-933e-ec3c732b5892" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jboss/as/quickstarts/dxrest/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/jboss/as/quickstarts/dxrest/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dx.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/dx.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dx/WEB-INF/classes/org/jboss/as/quickstarts/dxrest/HelloService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dx/WEB-INF/classes/org/jboss/as/quickstarts/dxrest/HelloService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxmodel/Arriving.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
+            <state relative-caret-position="539">
               <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
             </state>
           </provider>
@@ -45,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="50" column="86" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="86" />
+            <state relative-caret-position="886">
+              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
+            <state relative-caret-position="420">
               <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
               <folding>
                 <element signature="e#2237#2238#0" expanded="true" />
@@ -102,71 +107,22 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxtools/GsonTimeAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1504" />
-    <option name="y" value="-992" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+    <option name="x" value="-1596" />
+    <option name="y" value="-193" />
+    <option name="width" value="1026" />
+    <option name="height" value="554" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="wildfly-helloworld-html5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WildDX" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wildfly-helloworld-html5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WildDX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wildfly-helloworld-html5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WildDX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wildfly-helloworld-html5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WildDX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wildfly-helloworld-html5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WildDX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstarts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wildfly-helloworld-html5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WildDX" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstarts" type="462c0819:PsiDirectoryNode" />
-              <item name="dxrest" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -175,7 +131,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_69bd5e6f85e4842f07db71c9618a621154c52254/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -320,7 +276,11 @@
       <workItem from="1556885429653" duration="1218000" />
       <workItem from="1557766435361" duration="1020000" />
       <workItem from="1558982860436" duration="625000" />
-      <workItem from="1559072144914" duration="2523000" />
+      <workItem from="1559072144914" duration="3735000" />
+      <workItem from="1567581255545" duration="1025000" />
+      <workItem from="1567698418898" duration="923000" />
+      <workItem from="1568539621030" duration="1989000" />
+      <workItem from="1569445146072" duration="2063000" />
     </task>
     <task id="LOCAL-00001" summary="Clean">
       <created>1554201567472</created>
@@ -350,14 +310,30 @@
       <option name="project" value="LOCAL" />
       <updated>1555677509767</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rest Delta implemented&#10;Vidik added">
+      <created>1559074846408</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559074846408</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30382000" />
+    <option name="totallyTimeSpent" value="37594000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1208" y="-983" width="1216" height="1906" extended-state="6" />
+    <frame x="-1928" y="-440" width="1936" height="1186" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -374,15 +350,15 @@
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32850242" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.19484702" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.19468187" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32850242" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32850242" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.30231246" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.30231246" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.31078905" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32850242" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="CDI" order="2" />
@@ -397,6 +373,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Clean" />
@@ -450,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxmodel/Arriving.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
@@ -467,23 +446,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="50" column="86" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
+        <state relative-caret-position="420">
           <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
             <element signature="e#2237#2238#0" expanded="true" />
             <element signature="e#2264#2265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxmodel/Arriving.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -539,7 +525,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>wildfly-helloworld-html5</last-edited>
+          <last-edited>dx</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
