@@ -16,9 +16,6 @@
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,56 +23,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxmodel/Arriving.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="68" column="67" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="886">
-              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-              <folding>
-                <element signature="e#2237#2238#0" expanded="true" />
-                <element signature="e#2264#2265#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,41 +43,44 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/html5rest/HelloService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/html5rest/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxmodel/Arriving.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxtools/GsonTimeAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java" />
-      </list>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="dx/invalid/Web" />
+    </ignored-facets>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1596" />
-    <option name="y" value="-193" />
-    <option name="width" value="1026" />
-    <option name="height" value="554" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes />
+  <component name="ProjectId" id="1RMl1Eg8tCU8sdmgx9rFqjT1kPy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_69bd5e6f85e4842f07db71c9618a621154c52254/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -153,8 +103,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.dx mvn">
-    <configuration name="JBoss 9.0.2.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 9.0.2.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_121\jre" nameIsGenerated="true">
+  <component name="RunManager" selected="JBoss Server.JBoss 9.0.2.Final">
+    <configuration name="JBoss 9.0.2.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 9.0.2.Final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk1.8.0_202" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/wildfly-helloworld-html5/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -166,7 +116,7 @@
         <option name="SERVER" />
         <option name="BINDING_SET_NAME" value="" />
         <option name="DOMAIN" value="false" />
-        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="SERVER_GROUP" />
         <option name="USERNAME" value="user" />
         <option name="CREDENTIAL_ALIAS" value="370d95b5-435e-4a35-bb0e-2c34a1b22b33" />
       </server-settings>
@@ -257,6 +207,13 @@
       <item itemvalue="Maven.dx mvn" />
     </list>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView />
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -281,6 +238,8 @@
       <workItem from="1567698418898" duration="923000" />
       <workItem from="1568539621030" duration="1989000" />
       <workItem from="1569445146072" duration="2063000" />
+      <workItem from="1569484631004" duration="1486000" />
+      <workItem from="1569490431807" duration="862000" />
     </task>
     <task id="LOCAL-00001" summary="Clean">
       <created>1554201567472</created>
@@ -320,9 +279,6 @@
     <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37594000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -331,45 +287,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1928" y="-440" width="1936" height="1186" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Capture Tool" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Web" order="4" side_tool="true" />
-      <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.17301038" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32850242" />
-      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32850242" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32850242" />
-      <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.19468187" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32850242" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.30231246" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.31078905" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" weight="0.32850242" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="CDI" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -391,89 +308,55 @@
     <MESSAGE value="Rest Delta implemented&#10;Vidik added" />
     <option name="LAST_COMMIT_MESSAGE" value="Rest Delta implemented&#10;Vidik added" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#810#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dx.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxtools/GsonTimeAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="68" column="67" selection-start-line="68" selection-start-column="63" selection-end-line="68" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-          <folding>
-            <element signature="e#2237#2238#0" expanded="true" />
-            <element signature="e#2264#2265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxmodel/Arriving.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jboss/as/quickstarts/dxrest/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="886">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="451" y="89" key="#Configure_Path_Variables" timestamp="1569484801304">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="451" y="89" key="#Configure_Path_Variables/0.0.1920.1032@0.0.1920.1032" timestamp="1569484801304" />
+    <state x="624" y="54" key="#JBoss_9.0.2.Final" timestamp="1569490801752">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="624" y="54" key="#JBoss_9.0.2.Final/0.0.1920.1032@0.0.1920.1032" timestamp="1569490801752" />
+    <state x="451" y="89" key="#JBoss_Server" timestamp="1569491083908">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="451" y="89" key="#JBoss_Server/0.0.1920.1032@0.0.1920.1032" timestamp="1569491083908" />
+    <state x="292" y="86" key="#Notifications" timestamp="1569484654389">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="292" y="86" key="#Notifications/0.0.1920.1032@0.0.1920.1032" timestamp="1569484654389" />
+    <state x="409" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1569491109766">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="409" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1569491109766" />
+    <state x="686" y="210" key="FileChooserDialogImpl" timestamp="1569491105776">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="686" y="210" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1569491105776" />
+    <state width="1279" height="375" key="GridCell.Tab.0.bottom" timestamp="1569491297683">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1279" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1569491297683" />
+    <state width="1279" height="375" key="GridCell.Tab.0.center" timestamp="1569491297683">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1279" height="375" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1569491297683" />
+    <state width="1279" height="375" key="GridCell.Tab.0.left" timestamp="1569491297683">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1279" height="375" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1569491297683" />
+    <state width="1279" height="375" key="GridCell.Tab.0.right" timestamp="1569491297683">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1279" height="375" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1569491297683" />
+    <state x="140" y="56" width="1457" height="920" key="SettingsEditor" timestamp="1569490568247">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="140" y="56" width="1457" height="920" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1569490568247" />
+    <state x="586" y="295" key="com.intellij.ide.util.TipDialog" timestamp="1569490446578">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="586" y="295" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1569490446578" />
   </component>
   <component name="masterDetails">
     <states>
